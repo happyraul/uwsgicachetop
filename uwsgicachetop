@@ -12,6 +12,7 @@ import atexit
 import sys
 import traceback
 from collections import defaultdict
+from functools import reduce
 
 need_reset = True
 screen = None
